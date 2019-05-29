@@ -1,0 +1,48 @@
+body {
+    background: lightgrey;
+
+}
+
+.navbar-brand {
+    background-color: teal;
+    padding: 20px;
+    margin-left: 40px; 
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+.nav-link {
+    border-right-style: solid;
+    border-right-color: lightgrey;
+    border-right-width: 1px;
+}
+h1 {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #777777;
+    margin-bottom: 15px;
+    color: teal;
+}
+
+.container {
+    margin-top: 30px;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+    background-color: white;
+
+}
+
+.form {
+    margin: 30px;
+    border-style: solid;
+    border-color: #777777;
+    border-width: 1px;
+    background-color: white;
+    padding: 20px;
+}
+
+
+#myphoto {
+    margin-right: 20px;
+}
