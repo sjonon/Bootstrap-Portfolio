@@ -6,29 +6,78 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-</head>
+    <link rel="stylesheet" href="style.css">
+  </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Sylvia Jonon</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <div class="collapse navbar-collapse nav justify-content-end" id="navbarSupportedContent">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </nav>
+<!--Still need to work on figuring out the code for having the game titles stick to the photo images-->
+      <section class="container-portfolio">
+        <h1>Portfolio</h1>
+          <div class="row">
+            <div class="col-sm-6">
+              <img src="assets/mobile-app.jpg" alt="word guess">
+            </div>
+            <div class="col-sm-6">
+              <img src="assets/keyboard.jpg" alt="RPG Game">
+            </div>
+          </div>
+          <div class="row">
+              <div class="col-sm-5 gamename">
+                <h5 style="text-align: center">Word Guess</h5>
+              </div>
+              <div class="col-sm-1" style="background-color:white;"></div>
+                  <div class="col-sm-5 gamename">
+                    <h5 style="text-align:center">RPG Game</h5>
+                  </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                  <img src="assets/phone.jpg" alt="word guess">
+                </div>
+                <div class="col-sm-6">
+                  <img src="assets/headphones.jpg" alt="RPG Game">
+                </div>
+              </div>
+              <div class="row">
+                  <div class="col-sm-5 gamename">
+                    <h5 style="text-align: center">Trivia Game</h5>
+                  </div>
+                  <div class="col-sm-1" style="background-color:white;"></div>
+                      <div class="col-sm-5 gamename">
+                        <h5 style="text-align:center">Info Widget</h5>
+                      </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                      <img src="assets/keyboard.jpg" alt="rock paper scissors">
+                    </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-5 gamename">
+                        <h5 style="text-align: center">Rock Paper Scissors</h5>
+                      </div>
+                      <div class="col-sm-1" style="background-color:white;"></div>
+                      <div class="col-sm-5 gamename"></div>
+                    </div>
+        </section>
 </body>
 </html>
